@@ -1,0 +1,55 @@
+/* .container {
+    display: flex;
+    border: 600px;
+}
+
+.files img {
+    width: 400px;
+    height: 300px;
+   
+}  */
+
+.flex {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+
+  /* flex-direction: column;
+  flex-direction: column-reverse; */
+  /* flex-wrap: nowrap; 
+ flex-flow: column wrap; */
+ justify-content: center;
+ align-items: center;
+}
+.size {
+  height: 200px;
+  width: 200px;
+  font-size: 25px;
+}
+.box1 {
+  background-color: blue;
+}
+.box2 {
+  background-color: rgb(158, 90, 90);
+}
+.box3 {
+  background-color: rgb(126, 70, 17);
+}
+.box4 {
+  background-color: rgb(213, 94, 47);
+}
+.box5 {
+  background-color: rgb(58, 15, 19);
+  /* order: -1; */
+}
+.box6 {
+  background-color: rgb(2, 7, 2);
+}
+
+.box1:hover {
+  background-color: red;
+  width: 400px;
+  transition: 2s ease-in-out;
+  /* border-radius: 100%; */
+    transform: rotate(150deg);
+}
